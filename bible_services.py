@@ -191,7 +191,7 @@ class BibleService:
             url = f"https://api.scripture.api.bible/v1/bibles/{bible_id}/verses/{chapter_id}"
         headers = {
             "accept": "application/json",
-            "api-key": "2ead05467ed4d6f51dc72685bfd0440e"
+            "api-key": BIBLE_API_KEY
         }
         params = {
             "content-type": "html",
